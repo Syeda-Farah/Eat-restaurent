@@ -3223,11 +3223,16 @@ Copyright (c) 2014 Daniel Eden
   border-radius: 15px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:991px) {
  
-  .content {
+  .card-container {
+    padding: 20px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card{
+    width: 100%;
   }
 }
 
